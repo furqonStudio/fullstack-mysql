@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label {
+    @apply block text-xl font-medium text-gray-700;
+  }
+
+  .input {
+    @apply p-3 mt-1 block w-full shadow-sm rounded-md bg-slate-50;
+  }
+}
